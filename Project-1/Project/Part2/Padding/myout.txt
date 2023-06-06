@@ -1,0 +1,13 @@
+With Padding
+
+1)          input -> 4 8000000 8                    2)              input -> 4 8000 8000
+Thread 3 > Elapsed time = 1.006808e-01 seconds      Thread 1 > Elapsed time = 5.455995e-02 seconds
+Thread 0 > Elapsed time = 1.018431e-01 seconds      Thread 0 > Elapsed time = 5.499601e-02 seconds
+Thread 1 > Elapsed time = 1.105461e-01 seconds      Thread 2 > Elapsed time = 5.475187e-02 seconds
+Thread 2 > Elapsed time = 1.318340e-01 seconds      Thread 3 > Elapsed time = 7.330513e-02 seconds
+
+3)          input -> 4 8 8000000                    4)              input -> 4 8 80000000
+Thread 0 > Elapsed time = 5.503607e-02 seconds      Thread 2 > Elapsed time = 5.571489e-01 seconds
+Thread 2 > Elapsed time = 5.501914e-02 seconds      Thread 3 > Elapsed time = 5.571930e-01 seconds
+Thread 1 > Elapsed time = 5.838394e-02 seconds      Thread 1 > Elapsed time = 5.875690e-01 seconds
+Thread 3 > Elapsed time = 6.863809e-02 seconds      Thread 0 > Elapsed time = 7.274768e-01 seconds

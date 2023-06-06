@@ -1,0 +1,13 @@
+With Local variable
+
+1)          input -> 4 8000000 8                    2)              input -> 4 8000 8000
+Thread 1 > Elapsed time = 5.305099e-02 seconds      Thread 0 > Elapsed time = 4.650402e-02 seconds
+Thread 2 > Elapsed time = 5.303097e-02 seconds      Thread 2 > Elapsed time = 4.647684e-02 seconds
+Thread 0 > Elapsed time = 5.307698e-02 seconds      Thread 1 > Elapsed time = 4.663396e-02 seconds
+Thread 3 > Elapsed time = 5.307388e-02 seconds      Thread 3 > Elapsed time = 4.656911e-02 seconds
+
+3)          input -> 4 8 8000000                    4)              input -> 4 8 80000000
+Thread 3 > Elapsed time = 4.750204e-02 seconds      Thread 2 > Elapsed time = 4.739630e-01 seconds
+Thread 0 > Elapsed time = 4.765892e-02 seconds      Thread 0 > Elapsed time = 4.742219e-01 seconds
+Thread 2 > Elapsed time = 4.776597e-02 seconds      Thread 1 > Elapsed time = 4.739869e-01 seconds
+Thread 1 > Elapsed time = 4.767799e-02 seconds      Thread 3 > Elapsed time = 4.765971e-01 seconds

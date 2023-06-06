@@ -1,0 +1,13 @@
+False sharing
+
+1)            input -> 4 8000000 8                  2)              input -> 4 8000 8000
+Thread 3 > Elapsed time = 5.760703e-02 seconds      Thread 0 > Elapsed time = 5.446944e-02 seconds
+Thread 0 > Elapsed time = 5.761824e-02 seconds      Thread 3 > Elapsed time = 5.439157e-02 seconds
+Thread 1 > Elapsed time = 6.394677e-02 seconds      Thread 1 > Elapsed time = 5.720797e-02 seconds
+Thread 2 > Elapsed time = 7.391038e-02 seconds      Thread 2 > Elapsed time = 7.137742e-02 seconds
+
+3)            input -> 4 8 8000000                  4)              input -> 4 8 80000000
+Thread 3 > Elapsed time = 1.256518e-01 seconds      Thread 3 > Elapsed time = 2.192625e+00 seconds
+Thread 0 > Elapsed time = 2.892912e-01 seconds      Thread 2 > Elapsed time = 2.771081e+00 seconds
+Thread 2 > Elapsed time = 3.298354e-01 seconds      Thread 0 > Elapsed time = 2.940987e+00 seconds
+Thread 1 > Elapsed time = 3.381620e-01 seconds      Thread 1 > Elapsed time = 3.018959e+00 seconds

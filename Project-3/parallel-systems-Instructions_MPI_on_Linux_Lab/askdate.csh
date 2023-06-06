@@ -1,0 +1,32 @@
+#!/bin/csh
+
+ssh linux01 data
+ssh linux02 data
+ssh linux03 data
+ssh linux04 data
+ssh linux05 data
+ssh linux06 data
+ssh linux07 data
+ssh linux08 data
+ssh linux09 data
+ssh linux10 data
+ssh linux11 data
+ssh linux12 data
+ssh linux13 data
+ssh linux14 data
+ssh linux15 data
+ssh linux16 data
+ssh linux17 data
+ssh linux18 data
+ssh linux19 data
+ssh linux20 data
+ssh linux21 data
+ssh linux22 data
+ssh linux22 data
+ssh linux24 data
+ssh linux25 data
+ssh linux26 data
+ssh linux27 data
+ssh linux28 data
+ssh linux29 data
+ssh linux30 data
